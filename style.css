@@ -1,0 +1,297 @@
+body{
+ margin: 0;
+}
+
+.header-wrapper{
+ max-width: 1920px;
+ background-color: #2a7eac;
+ height: 96px;
+ box-shadow: 0 0 20px;
+ color: #fff;
+
+}
+.main-head{
+	
+
+}
+.wrapper{
+	border-top: 50px solid;
+	float: right;
+}
+.infonumber{
+	float: right;
+
+}
+.header{
+ display: inline-block;
+}
+.top-image{
+ margin: 32px 10px;
+}
+/*side-bar*/
+a, a:hover{
+	text-decoration: none;
+}
+.clearfix:before, 
+.clearfix:after{
+	content:" ";
+	display: table;
+	
+}
+.clearfix:after{clear:both;}
+
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+	box-shadow: 0 0 15px 3px lightgray;
+}
+
+
+.nav, #touch-menu {
+	margin-top: 0;
+	margin-bottom: 0;
+	background: #2a7eac;
+	padding-left: 0;
+	font-family: Lato,Helvetica,Arial,sans-serif;
+	list-style: none;
+}
+.nav li{
+	float: left;
+}
+
+.nav li a, 
+#touch-menu{
+	display: block;
+	padding:10px 15px;
+	font-weight: bold;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav li a:hover, #touch-menu:hover{text-decoration: underline;}
+#touch-menu {display: none;}
+/*end side-bar*/
+/*slider*/
+.mySlides {
+    display:none
+}
+.mySlides h1 {
+    font-family: Helvetica, Sans-Serif;
+    font-size: 30px;
+    letter-spacing: -1px;
+    color: black;
+}
+
+.mySlides p {
+	font-family: Roboto;
+    color: black;
+    font-size: 12px;
+    line-height: 22px;
+    width: 300px;
+}
+
+.mySlides img {
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+.dot {
+    cursor: pointer;
+    height: 9px;
+    width: 9px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+/*end slider*/
+/*footer*/
+.footer{
+	position: relative;
+	max-width: 1170px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 0 auto;
+    padding-top: 400px;
+
+}
+.left-block{
+	display: inline-block;
+	float: left;
+	width: 40%;
+	max-width: 480px;
+	margin-right: 70px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	padding: 0px;
+	
+}
+.red-block{
+	float: left;
+
+}
+.box2{
+	float: left;
+}
+.container2{
+	display: inline-block;
+	width: 100%;
+	max-width: 360px;	
+	margin-top: 20px;
+	padding-bottom: 20px;
+
+}
+.foto{
+	display: inline-block;
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+}
+.right-block{
+	float: left;
+	width: 56%;
+	max-width: 530px;
+	margin-bottom: 70px;
+	margin-top: 20px;
+}
+.col-3{
+	display: inline-block;
+	height: auto;
+	width: 45%;
+	padding-right: 30px;
+}
+.col-3{
+	font-family:Roboto ;
+}
+.col-4{
+	display: inline-block;
+	height: auto;
+	width: 45%;
+}
+.col-4 p{
+	font-family:Roboto ;
+}
+.two-column{
+	display: inline-block;
+	height: auto;
+	width: 100%;
+
+}
+.link{
+	float: right;
+	text-decoration: underline;
+	color: #000;
+	margin-bottom: 10px;
+}
+h2{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: Roboto;
+	font-size: 24px;
+}
+
+/*end footer*/
+.main-text{
+	font-size: 14px;
+	font-family: Roboto;
+}
+/*end-text*/
+.end-text{
+	display: inline-block;
+	background-color: #388fbf;
+	width: 100%;
+}
+.end-text1{
+	float: left;
+	margin-top: 37px;
+	margin-bottom: 37px;
+	color: #fff;
+	margin-left: 30px;
+}
+.text1{
+	float: left;
+	margin-right:92px ;
+	font-family:Roboto ;
+}
+.text2{
+	float: left;
+	margin-right:310px;
+	font-family:Roboto ;
+}
+.text3{
+	float: left;
+	margin-right: 70px;
+	font-family:Roboto ;
+}
+.text4{
+	float: left;
+	font-family:Roboto ;
+}
+
+	
+
+@media(max-width: 724px){
+	header{
+		position:absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		height: 50px;
+	}
+	.nav{
+		width: 50%;
+		float: right;
+
+		position:absolute;
+		top: 100%;
+		left: 0;
+		right: 0;
+		display: inline-block;
+	}
+	.nav li {float: none;}
+	.nav li a {
+		background: #2a7eac;
+
+		
+	}
+	#touch-menu{
+		display: block;
+		text-align: left;
+		height: 50px;
+		margin:-10px 0;
+		float: right;
+		width: 50%;
+	}
+	.footer{
+		float: none;
+		width: 100%;
+	}
+
+	[class*="col-"]{
+		float: left;
+		width: 100%;
+
+	}
+
+	}
+
+@media(max-width: 480px){
+
+}

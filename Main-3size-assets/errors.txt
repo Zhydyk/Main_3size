@@ -1,0 +1,12 @@
+[2018-01-22 12:54:51] layer "www.ob-transporte.de": Unsupported extension: de
+[2018-01-22 12:54:51] layer "+49 (0) 7452 620 49 50": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-01-22 12:54:51] layer "kontakt@studio-schupp.de": Unsupported extension: de
+[2018-01-22 12:54:51] layer "E-mail:   kontakt@studio-schupp.de": Unsupported extension: de
+[2018-01-22 12:54:51] layer "www.ob-transporte.de": Unsupported extension: de
+[2018-01-22 12:54:51] layer "+49 (0) 7452 620 49 50": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-01-22 12:54:51] layer "kontakt@studio-schupp.de": Unsupported extension: de
+[2018-01-22 12:54:51] layer "E-mail:   kontakt@studio-schupp.de": Unsupported extension: de
+[2018-01-22 12:54:51] layer "www.ob-transporte.de": Unsupported extension: de
+[2018-01-22 12:54:51] layer "E-mail:   kontakt@studio-schupp.de": Unsupported extension: de
+[2018-01-22 12:54:51] layer "+49 (0) 7452 620 49 50": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2018-01-22 12:54:51] layer "kontakt@studio-schupp.de": Unsupported extension: de

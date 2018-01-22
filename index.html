@@ -1,0 +1,196 @@
+
+<html>
+<head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" >
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid header-wrapper">
+        <div class="container-fluid main-head">
+            <div class="wrapper">+49 (0) 7452 620 49 50 kontakt@studio-schupp.de
+            </div>
+
+            <div class="logo-wrap">
+                <a href="#"><img src="F:/Main_3size/images/logo.png"></a>
+            </div>
+            
+            <header class=" container-fluid conteiner">
+                <a href="#"  id="touch-menu">Menu</a>
+                <nav >
+                    <ul class="container-fluid nav clearfix">
+                                <li><a href="#"> Leistungen</a></li>
+                                <li><a href="#"> Tarifmodelle</a></li>
+                                <li><a href="#"> CRM</a></li>
+                                <li><a href="#"> Наши разработки</a></li>
+                                <li><a href="#"> Отзывы</a></li>
+                                <li><a href="#"> Частые заблуждения</a></li>
+                                <li><a href="#"> Kontakt</a></li>
+                                <li><a href="#"> Impressum</a></li>
+                               
+                    </ul>       
+                </nav>
+            </header>
+        </div>
+        <div class="container-fluid main-head">    
+     <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <h1>Garden Rack</h1>
+                <p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer
+                    euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit
+                    amet ante. Maecenas tellus.</p>
+                <a href="#"><img src="F:/Main_3size/images/comp.png" alt="learn more"/></a>
+            </div>
+
+            <div class="mySlides fade">
+                <h1>Tulip Bulbs</h1>
+                <p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer
+                    euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit
+                    amet ante. Maecenas tellus.</p>
+                <a href="#"><img src="F:/Main_3size/images/comp.png" alt="learn more"/></a>
+            </div>
+
+            <div class="mySlides fade">
+                <h1>Garden Gloves</h1>
+                <p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer
+                    euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit
+                    amet ante. Maecenas tellus.</p>
+                <a href="#"><img src="F:/Main_3size/images/comp.png" alt="learn more"/></a>
+            </div>
+            <div class="mySlides fade">
+                <h1>Garden Gloves</h1>
+                <p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer
+                    euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit
+                    amet ante. Maecenas tellus.</p>
+                <a href="#"><img src="F:/Main_3size/images/comp.png" alt="learn more"/></a>
+            </div>
+            <div class="mySlides fade">
+                <h1>Garden Gloves</h1>
+                <p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer
+                    euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit
+                    amet ante. Maecenas tellus.</p>
+                <a href="#"><img src="/F:/Main_3size/images/comp.png" alt="learn more"/></a>
+            </div>
+            <div class="mySlides fade">
+                <h1>Garden Gloves</h1>
+                <p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer
+                    euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit
+                    amet ante. Maecenas tellus.</p>
+                <a href="#"><img src="F:/Main_3size/images/comp.png" alt="learn more"/></a>
+            </div>
+            <div class="mySlides fade">
+                <h1>Garden Gloves</h1>
+                <p>Donec gravida posuere arcu. Nulla facilisi. Phasellus imperdiet. Vestibulum at metus. Integer
+                    euismod. Nullam placerat rhoncus sapien. Ut euismod. Praesent libero. Morbi pellentesque libero sit
+                    amet ante. Maecenas tellus.</p>
+                <a href="#"><img src="F:/Main_3size/images/comp.png" alt="learn more"/></a>
+            </div>
+        </div>
+        <br>
+
+        <div style="text-align:left">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+        </div>
+    </div>    
+</div>
+
+    <script type="text/javascript">
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+        }
+    </script>
+<section class="footer">
+	<div class="left-block col-1">	
+		<div class="red-block ">
+			<h2>Наши разработки</h2>
+			<img class=" foto" src="F:/Main_3size/images/red-foto.png">
+        </div>
+		<div class="box2 ">
+			<div class="container2">
+				<div class="col-3">
+					<img class="two-column" src="F:/Main_3size/images/Gallery-design1.jpg">
+					<h3>Familien Fotoalbum</h3>
+					<p>Außerdem kann das Unternehmen im Fall der Entlassung oder Krankheit eines Mitarbeiters alle seine unvollendeten Verhandlungen und unverarbeiteten Kontakte verlieren.</p>
+                    <a href="#" class="link">mehr</a>
+				</div>
+				<div class="col-4">
+					<img class="two-column" src="F:/Main_3size/images/foto2.jpg">
+					<h3>Familien Fotoalbum</h3>
+					<p>Außerdem kann das Unternehmen im Fall der Entlassung oder Krankheit eines Mitarbeiters alle seine unvollendeten Verhandlungen und unverarbeiteten Kontakte verlieren.</p>
+                    <a href="#" class="link">mehr</a>
+				</div>
+			</div>
+		</div>	
+		
+    </div>
+    <div class="right-block col-2">
+        <div class="conteiner-right">
+			<h2>Как мы работаем</h2>
+			<p class="main-text"><b>Entwicklung der Website und der Corporate Identity – keine leichte Aufgabe. Doch wir übernehmen sie mit voller Verantwortung und Qualitätsgarantie. Schreiben sie, rufen sie uns an – wir freuen uns immer über euch.</b>
+            Früher oder später kommt bei jeder Firma das Bedürfnis nach der Erweiterung des Business und eins der wichtigsten Werkzeuge dafür ist das Internet. Es wird deutlich, dass es notwendig ist, eine gute Website zu entwickeln. Zu diesem Zeitpunkt begegnen viele dem Problem, wo man denn nun die Entwicklung der Website der Firma bestellen soll. In diesen Fall ist es schwer ein Angebot für die Entwicklung und Herstellung von Websites zu wählen, den man vollständig vertrauen kann.
+ 
+            Unser Rat – Vertrauen sie nicht den Worten, sondern dem Ergebnis
+            Wir sind stolz auf unsere vorherigen Arbeiten, der Entwicklung von Websites, Corporate Identity, Logos und anderen Projekten vorgestellt in der Rubrik "Portfolio". Sie zeigen besser als Worte, warum viele Unternehmen genau mit uns ein Vertrag abschließen. Qualität für den realen Preis – das ist das Prinzip der Arbeit unseres Studios.
+ 
+        </p>
+			<h2>Вы получите:</h2>
+		<p class="main-text">1. Aufmerksame Behandlung ihrer Anforderungen von der Seite der Manager unserer Studios;<br>
+            2. Ständige Verfügbarkeit unserer Manager über das Telefon oder Internet;
+            Schlaue Vorgehensweise unserer Experten bei der technischen Seite der Websiteerstellung<br>
+            3. Entwicklung und Erstellung eines modernen und einzigartigen Designs für die Website des Unternehmens;<br>
+            4. Dialog über die gesamte Laufzeit der Zusammenarbeit.<br>
+            5. Hilfe bei der Auswahl des besten Webhostings und seinen Einstellungen
+            Beim Abschließen eines Vertrags für die Erstellung einer Website – Zwei Stunden kostenlosen Beibringen der Arbeit mit der Bedienplattform mit den Besuchen von unseren Spezialisten zur ihren gewünschten Zeit.</p>
+			<h2>Unsere Leistungen</h2>
+			<p class="main-text">Erstellung von Websites und virtuellen Büros, Logos und Corporate Identity, Website-Förderung in Suchmaschinen, Hilfe bei Erstellen von einzigartigem Inhalt (Texten) und vielen mehr...</p>
+		</div>
+	</div>
+</section>
+<div class="container-fluid end-text">
+        <div class=" end-text1" > 
+            <p class="text1">2002-2018 Studio Shupp</p>
+            <p class="text2">Design: RZhydyk</p>
+            <p class="text3">E-mail: kontakt@studio-schupp.de</p>
+            <p class="text4">Telefon: +49 (0) 7452 520 49 50</p>
+        </div>
+</div>
+
+</body>
+</html>
